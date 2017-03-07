@@ -1,0 +1,57 @@
+! Courtney McEntire
+! 2017-03-14
+
+*foreground:   #f2f2f2
+*background:   #333333
+*cursorColor:  #f2f2f2
+
+! black
+*color0:       #333333
+*color8:       #595959
+! red
+*color1:       #a6424e
+*color9:       #cd4c5b
+! green
+*color2:       #d0691f
+*color10:      #f27c24
+! yellow
+*color3:       #feb52e
+*color11:      #ffd335
+! blue
+*color4:       #0e52c1
+*color12:      #136ae9
+! magenta
+*color5:       #1fa7fd
+*color13:      #27cdfe
+! cyan
+*color6:       #808080
+*color14:      #a6a6a6
+! white
+*color7:       #cccccc
+*color15:      #f2f2f2
+
+!Xft.autohint:1
+!Xft.lcdfilter:lcddefault
+!Xft.antialias:1
+!Xft.rgba:none
+!Xft.hinting:1
+!Xft.hintstyle:hintfull
+Xft.dpi:72
+
+URxvt.font:-*-terminus-medium-r-*-*-16-*-*-*-c-*-*-*
+URxvt.scrollBar:false
+URxvt.internalBorder:5
+URxvt.perl-ext-common: default,matcher,selection-to-clipboard
+URxvt.url-launcher:/usr/bin/lynx
+URxvt.matcher.button:1
+
+xterm*font:-*-terminus-medium-r-*-*-14-*-*-*-c-*-*-*
+
+!! alt
+!*foreground:   #333333
+!*background:   #d9d9d9
+!*cursorColor:  #a6a6a6
+!*color6:       #333333
+!*color14:      #595959
+!*color7:       #808080
+!*color15:      #999999
